@@ -1,0 +1,39 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!example.tfvars
+.terraform.lock.hcl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node (for app)
+node_modules/
+dist/
+
+# Docker
+*.tar
+
+# AWS CLI
+awscliv2.zip
+
+# Claude Code
+.claude/
+
+# Terraform plan binary
+tfplan
+
+# AWS CLI installer
+aws/

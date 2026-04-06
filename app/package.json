@@ -1,0 +1,13 @@
+{
+  "name": "eks-blog-app",
+  "version": "2.0.0",
+  "description": "Blog app for EKS platform with MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.0"
+  }
+}
